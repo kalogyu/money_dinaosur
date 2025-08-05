@@ -5,9 +5,11 @@
 *.swp
 .DS_Store
 .atom/
+.build/
 .buildlog/
 .history
 .svn/
+.swiftpm/
 migrate_working_dir/
 
 # IntelliJ related
@@ -31,6 +33,7 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+!build/web/
 
 # Symbolication related
 app.*.symbols
@@ -87,7 +90,6 @@ app.*.map.json
 **/linux/flutter/generated_plugins.cmake
 
 # Web related
-lib/generated_plugin_registrant.dart
 
 # Coverage
 coverage/
